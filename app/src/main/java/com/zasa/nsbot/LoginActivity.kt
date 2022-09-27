@@ -47,8 +47,6 @@ class LoginActivity : AppCompatActivity() {
             startActivityForResult(intent, RC_SIGN_IN)
 
         }
-
-
     }
 
     private fun checkUser() {
