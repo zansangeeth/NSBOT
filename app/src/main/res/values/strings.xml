@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NSBOT</string>
     <string name="welcome_to_nsbot">Welcome to NSBOT</string>
+    <string name="web_client_id">962156490117-l2upk09q1mfr3ke5fvreshmvnbh6f851.apps.googleusercontent.com</string>
 </resources>
