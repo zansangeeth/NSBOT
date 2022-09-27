@@ -28,12 +28,15 @@ class Setting : Fragment() {
 
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_setting, container, false)
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
         // user logged in
         val firebaseUser = firebaseAuth.currentUser
+
         // get user info
         val email = firebaseUser!!.email
         tvEmail.text = email
@@ -53,7 +56,6 @@ class Setting : Fragment() {
             startActivity(Intent(requireContext().applicationContext, LoginActivity::class.java))
             activity?.finish()
         } else {
-
         }
     }
 
