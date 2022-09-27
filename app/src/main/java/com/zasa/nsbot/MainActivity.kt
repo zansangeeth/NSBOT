@@ -1,10 +1,8 @@
 package com.zasa.nsbot
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.google.firebase.auth.FirebaseAuth
 import com.zasa.nsbot.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
 
