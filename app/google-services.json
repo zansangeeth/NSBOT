@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "962156490117",
+    "project_id": "nsbot-f2335",
+    "storage_bucket": "nsbot-f2335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962156490117:android:4e47a9b4233ff506c428ec",
+        "android_client_info": {
+          "package_name": "com.zasa.nsbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962156490117-l2upk09q1mfr3ke5fvreshmvnbh6f851.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zasa.nsbot",
+            "certificate_hash": "e1cb1f34fe3cd56c621b0960d9b8760761840492"
+          }
+        },
+        {
+          "client_id": "962156490117-omaromkg91lkajemclgu545uqv8d40j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcJ1JfiS2V1-hLeEKqZJLqYzs7Trhg_nE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962156490117-omaromkg91lkajemclgu545uqv8d40j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
