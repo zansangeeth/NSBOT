@@ -1,10 +1,15 @@
 package com.zasa.nsbot
 
 import android.content.Intent
+import android.graphics.drawable.AnimationDrawable
+import android.media.MediaParser
+import android.media.MediaPlayer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.MediaController
 import android.widget.Toast
+import androidx.core.net.toUri
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
