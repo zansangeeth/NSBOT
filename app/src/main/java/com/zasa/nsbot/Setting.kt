@@ -4,15 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
-import android.view.RoundedCorner
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.load.resource.bitmap.CenterCrop
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.google.firebase.auth.FirebaseAuth
-import com.zasa.nsbot.databinding.FragmentSettingBinding
 import kotlinx.android.synthetic.main.fragment_setting.*
 
 
@@ -63,7 +58,10 @@ class Setting : Fragment() {
             activity?.finish()
         } else {
         }
+
+
     }
+
 
 
 }
