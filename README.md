@@ -59,10 +59,16 @@ The following **extensions** are not implemented:
 
 Here's a walkthrough of implemented user stories:
 
-# Screenshots
+# Screenshots Mobile
 Screen | App View | Sign In View | Home View | Location View | Setting View 
 --- | --- | --- | --- | --- | --- |
 Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) |
+
+# Screenshots Tablet
+Screen | Sign In Landscape |
+--- | --- |
+Images | ![Screenshot_20220928_221932](https://user-images.githubusercontent.com/42418189/192848521-f1c672d7-b9d1-4b73-a31a-e481b69b0713.png) |
+
 
 
 ## Notes
