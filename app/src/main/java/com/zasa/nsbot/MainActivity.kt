@@ -1,10 +1,17 @@
 package com.zasa.nsbot
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.AttributeSet
+import android.view.View
+import androidx.coordinatorlayout.widget.CoordinatorLayout
+import androidx.core.view.ViewCompat
 import androidx.fragment.app.Fragment
 import com.zasa.nsbot.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
+import java.lang.Float.max
+import java.lang.Float.min
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +34,8 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+
+
     }
 
 
@@ -36,4 +45,6 @@ class MainActivity : AppCompatActivity() {
         fragmentTransaction.replace(R.id.frameLayout, fragment)
         fragmentTransaction.commit()
     }
+
+
 }
