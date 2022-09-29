@@ -72,7 +72,7 @@ Images | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com
 # Screenshots Tablet
 Screen | Sign In Landscape |
 --- | --- |
-Images | ![Screenshot_20220929_114136](https://user-images.githubusercontent.com/42418189/192953009-3e106d37-be36-4aec-84eb-f3f1deae5a18.png) |
+Images | ![Screenshot_20220929_115919](https://user-images.githubusercontent.com/42418189/192955878-bc432adc-54a0-4c44-b8e6-04de8cd93af7.png) |
 
 
 
