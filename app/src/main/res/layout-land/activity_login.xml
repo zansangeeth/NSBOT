@@ -58,7 +58,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:background="@drawable/bg_button"
                 android:text="Sign In"
-
+                app:icon="@drawable/google"
+                app:iconGravity="textStart"
                 />
 
         </LinearLayout>
