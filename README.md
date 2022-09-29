@@ -31,6 +31,7 @@ The following **required** functionality is completed:
 * [ ] Google maps
 * [ ] Custom layouts
 * [ ] Google Sign in
+* [ ] Screen Timeout
 * [ ] Firebase
 * [ ] App icon
 
@@ -44,20 +45,26 @@ The following **extensions** are implemented:
 * [ ] imlemented MVVM pattern
 * [ ] user can see setting page that have profile details and logout 
 * [ ] app will automatically check user is existing or not 
+* [ ] if user incative for one minute alert dialog will display and user will be navigate to login screen
 
 
 The following **extensions** are not implemented:
 
 * [ ] implemented current location but cant be add current location marker - so implemented default marker with custom drawable of marker
-* [ ] screen time out 
+
 
 ## Video walkthrough for potrait
 
 ![XRecorder_28092-1664383124809](https://user-images.githubusercontent.com/42418189/192840026-7d359e70-a169-4006-b290-1334bca3d991.gif)
 
+## Video walkthrough for session time out
+
+![XRecorder_Edite-1664429158864](https://user-images.githubusercontent.com/42418189/192946322-4e496488-00ba-470d-9be9-0a6e82074c9a.gif)
+
 ## Video walkthrough for landscape
 
 ![XRecorder_29092-1664422894493](https://user-images.githubusercontent.com/42418189/192937813-2a3d5258-4a32-4cdb-835a-181262757d33.gif)
+
 
 ## Image Walkthrough
 
