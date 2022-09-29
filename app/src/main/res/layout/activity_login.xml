@@ -34,7 +34,7 @@
         app:srcCompat="@drawable/logo" />
 
 
-    <com.google.android.gms.common.SignInButton
+    <Button
         android:id="@+id/btnGoogleSignIn"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -44,6 +44,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="#FF914D"/>
+        android:background="@drawable/bg_button"
+        android:text="Sign In"
+        app:icon="@drawable/google"
+        app:iconGravity="textStart"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
