@@ -71,9 +71,9 @@ The following **extensions** are not implemented:
 Here's a walkthrough of implemented user stories:
 
 # Screenshots Mobile
-Screen | App View | Sign In View | Home View | Location View | Setting View 
---- | --- | --- | --- | --- | --- |
-Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) |
+Screen | App View | Sign In View | Home View | Location View | Setting View | Session Timeout
+--- | --- | --- | --- | --- | --- | --- |
+Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) | ![Screenshot (Sep 29, 2022 11_00_28 AM)](https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png) |
 
 # Screenshots Tablet
 Screen | Sign In Landscape |
