@@ -51,9 +51,13 @@ The following **extensions** are not implemented:
 * [ ] implemented current location but cant be add current location marker - so implemented default marker with custom drawable of marker
 * [ ] screen time out 
 
-## Video walkthrough
+## Video walkthrough for potrait
 
 ![XRecorder_28092-1664383124809](https://user-images.githubusercontent.com/42418189/192840026-7d359e70-a169-4006-b290-1334bca3d991.gif)
+
+## Video walkthrough for landscape
+
+![XRecorder_29092-1664422894493](https://user-images.githubusercontent.com/42418189/192937813-2a3d5258-4a32-4cdb-835a-181262757d33.gif)
 
 ## Image Walkthrough
 
