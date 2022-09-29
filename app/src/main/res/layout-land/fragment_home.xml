@@ -31,7 +31,7 @@
                 android:gravity="center"
                 android:text="About Us"
                 android:textColor="#FF914D"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -57,7 +57,7 @@
                 android:lineSpacingExtra="5dp"
                 android:text="@string/company_background"
                 android:textColor="@color/black"
-                android:textSize="12dp"
+                android:textSize="12sp"
                 android:textStyle="normal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
                 android:gravity="center"
                 android:text="Mission &amp; Vision"
                 android:textColor="#FF914D"
-                android:textSize="25dp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="MISSION"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintTop_toBottomOf="@id/ivMission" />
 
@@ -151,7 +151,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="VISION"
-                        android:textSize="18dp"
+                        android:textSize="18sp"
                         android:textStyle="bold"
                         app:layout_constraintTop_toBottomOf="@id/ivVision" />
 
