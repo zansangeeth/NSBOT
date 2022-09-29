@@ -50,7 +50,7 @@ The following **extensions** are not implemented:
 
 ## Video walkthrough for potrait
 
-![XRecorder_28092-1664383124809](https://user-images.githubusercontent.com/42418189/192840026-7d359e70-a169-4006-b290-1334bca3d991.gif)
+![XRecorder_29092-1664432201350](https://user-images.githubusercontent.com/42418189/192953863-77284364-2507-447c-a8b7-3e9a8569d088.gif)
 
 ## Video walkthrough for session time out
 
@@ -58,8 +58,7 @@ The following **extensions** are not implemented:
 
 ## Video walkthrough for landscape
 
-![XRecorder_29092-1664422894493](https://user-images.githubusercontent.com/42418189/192937813-2a3d5258-4a32-4cdb-835a-181262757d33.gif)
-
+![XRecorder_29092-1664432386624](https://user-images.githubusercontent.com/42418189/192954612-f99f3dbb-5c56-4959-ac6b-f25aaf86560a.gif)
 
 ## Image Walkthrough
 
