@@ -16,7 +16,10 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
+    //google client
     private lateinit var googleSignInClient: GoogleSignInClient
+
+    //firebase auth
     private lateinit var firebaseAuth: FirebaseAuth
 
     //constants
@@ -53,7 +56,7 @@ class LoginActivity : AppCompatActivity() {
 
         //check if user is logged in or not
         val firebaseUser = firebaseAuth.currentUser
-        if (firebaseUser != null){
+        if (firebaseUser != null) {
             // user is already logged in
             // start main activity
             //starts profile activity
@@ -70,19 +73,26 @@ class LoginActivity : AppCompatActivity() {
             Log.i(TAG, "onActivityResult : Google Sign in intent result")
             val accountTask = GoogleSignIn.getSignedInAccountFromIntent(data)
             try {
+
                 //google sign in success
                 val account = accountTask.getResult(ApiException::class.java)
                 firebaseAuthWithGoogleAccount(account)
+
             } catch (e: Exception) {
+
                 //failed google sign in
                 Log.i(TAG, "onActivityResult : ${e.message}")
+
             }
         }
     }
 
     private fun firebaseAuthWithGoogleAccount(account: GoogleSignInAccount?) {
+
         Log.i(TAG, "firebaseAuthWithGoogleAccount : begin firebase auth with google account")
+
         val credentials = GoogleAuthProvider.getCredential(account!!.idToken, null)
+
         firebaseAuth.signInWithCredential(credentials)
             .addOnSuccessListener { authResults ->
                 //login success
@@ -103,7 +113,7 @@ class LoginActivity : AppCompatActivity() {
                     //user is new now
                     Log.i(TAG, "firebaseAuthWithGoogleAccount : account created : \n$email")
                     Toast.makeText(this, "Account Created \n$email", Toast.LENGTH_SHORT).show()
-                }else{
+                } else {
                     //existing user
                     Log.i(TAG, "firebaseAuthWithGoogleAccount : existing user : \n$email")
                     Toast.makeText(this, "Logged in \n$email", Toast.LENGTH_SHORT).show()
@@ -113,9 +123,10 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
             }
-            .addOnFailureListener { e->
+            .addOnFailureListener { e ->
                 Log.i(TAG, "firebaseAuthWithGoogleAccount : Logged in failed due to ${e.message}")
-                Toast.makeText(this, "Logged in failed due to ${e.message}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Logged in failed due to ${e.message}", Toast.LENGTH_SHORT)
+                    .show()
             }
     }
 

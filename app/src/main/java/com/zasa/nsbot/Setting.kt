@@ -56,12 +56,7 @@ class Setting : Fragment() {
             // user not logged in
             startActivity(Intent(requireContext().applicationContext, LoginActivity::class.java))
             activity?.finish()
-        } else {
-        }
-
-
+        } else {}
     }
-
-
 
 }
