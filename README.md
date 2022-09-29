@@ -6,17 +6,12 @@ Sangeeth Amirthanathan
 
 Time spent: **2** days spent in total
 
-## Android MVVM Architecture
+## Custome UI Implementations
 
-MVVM stands for Model, View, ViewModel.
+UI | Custom Button | Custom Bottom Nav Bar | Custom Location Marker |
+--- | --- | --- | --- |
+Images | ![Screenshot_20220929-110506_2](https://user-images.githubusercontent.com/42418189/192947949-40a4b1fd-0fb4-4033-b3ba-e825bd72fad3.png) | ![Screenshot_20220929-110516_2](https://user-images.githubusercontent.com/42418189/192948456-727d792b-3d13-4ff7-a42d-d21780db9050.png) | ![Screenshot_20220929-110525_2](https://user-images.githubusercontent.com/42418189/192948574-eaef28a7-444b-4724-81a8-af9136e4f41c.png) |
 
-* [ ] Model: This holds the data of the application. It cannot directly talk to the View. Generally, it’s recommended to expose the data to the ViewModel through Observables.
-
-* [ ] View: It represents the UI of the application devoid of any Application Logic. It observes the ViewModel.
-
-The following flow illustrates the core MVVM Pattern.
-
-![android-mvvm-pattern](https://user-images.githubusercontent.com/42418189/186920956-39430cc6-9eab-4b5a-86fc-c9cba4b72e3b.png)
 
 ## Functionality 
 
@@ -73,7 +68,7 @@ Here's a walkthrough of implemented user stories:
 # Screenshots Mobile
 Screen | App View | Sign In View | Home View | Location View | Setting View | Session Timeout
 --- | --- | --- | --- | --- | --- | --- |
-Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) | ![Screenshot (Sep 29, 2022 11_00_28 AM)](https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png) |
+Images | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) | ![Screenshot (Sep 29, 2022 11_00_28 AM)](https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png) |
 
 # Screenshots Tablet
 Screen | Sign In Landscape |
