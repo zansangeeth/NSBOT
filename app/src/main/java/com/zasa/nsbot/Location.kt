@@ -138,12 +138,6 @@ class Location : Fragment(), OnMapReadyCallback {
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
     }
-//
-//    override fun onResume() {
-//        super.onResume()
-//        map.onResume()
-//    }
-
 
     override fun onMapReady(map: GoogleMap) {
         map.let {
