@@ -31,6 +31,7 @@ The following **required** functionality is completed:
 * [ ] Google maps
 * [ ] Custom layouts
 * [ ] Google Sign in
+* [ ] Screen Timeout
 * [ ] Firebase
 * [ ] App icon
 
@@ -44,25 +45,41 @@ The following **extensions** are implemented:
 * [ ] imlemented MVVM pattern
 * [ ] user can see setting page that have profile details and logout 
 * [ ] app will automatically check user is existing or not 
+* [ ] if user incative for one minute alert dialog will display and user will be navigate to login screen
 
 
 The following **extensions** are not implemented:
 
 * [ ] implemented current location but cant be add current location marker - so implemented default marker with custom drawable of marker
-* [ ] screen time out 
 
-## Video walkthrough
+
+## Video walkthrough for potrait
 
 ![XRecorder_28092-1664383124809](https://user-images.githubusercontent.com/42418189/192840026-7d359e70-a169-4006-b290-1334bca3d991.gif)
+
+## Video walkthrough for session time out
+
+![XRecorder_Edite-1664429158864](https://user-images.githubusercontent.com/42418189/192946322-4e496488-00ba-470d-9be9-0a6e82074c9a.gif)
+
+## Video walkthrough for landscape
+
+![XRecorder_29092-1664422894493](https://user-images.githubusercontent.com/42418189/192937813-2a3d5258-4a32-4cdb-835a-181262757d33.gif)
+
 
 ## Image Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-# Screenshots
-Screen | App View | Sign In View | Home View | Location View | Setting View 
---- | --- | --- | --- | --- | --- |
-Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) |
+# Screenshots Mobile
+Screen | App View | Sign In View | Home View | Location View | Setting View | Session Timeout
+--- | --- | --- | --- | --- | --- | --- |
+Imaages | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220928-214238](https://user-images.githubusercontent.com/42418189/192835727-cffc0a9f-c9d5-470a-aa39-37790485dadc.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220928-214224](https://user-images.githubusercontent.com/42418189/192836139-8c0bf41f-c072-4a5f-a02f-5fcff4376413.png) | ![Screenshot_20220928-214232](https://user-images.githubusercontent.com/42418189/192836382-048efb58-e4e8-43ad-969e-7d0cb637aef2.png) | ![Screenshot (Sep 29, 2022 11_00_28 AM)](https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png) |
+
+# Screenshots Tablet
+Screen | Sign In Landscape |
+--- | --- |
+Images | ![Screenshot_20220928_221932](https://user-images.githubusercontent.com/42418189/192848521-f1c672d7-b9d1-4b73-a31a-e481b69b0713.png) |
+
 
 
 ## Notes
