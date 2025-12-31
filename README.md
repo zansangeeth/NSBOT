@@ -64,10 +64,27 @@ The following **extensions** are not implemented:
 
 Here's a walkthrough of implemented user stories:
 
-# Screenshots Mobile
-Screen | App View | Sign In View | Home View | Location View | Setting View | Session Timeout
---- | --- | --- | --- | --- | --- | --- |
-Images | ![Screenshot_20220928-215548](https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png) | ![Screenshot_20220929-113215](https://user-images.githubusercontent.com/42418189/192952175-1fbdad61-8ea7-40c1-b8e8-b16aec29bd29.png) | ![Screenshot_20220928-213058](https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png) | ![Screenshot_20220929-113237](https://user-images.githubusercontent.com/42418189/192952227-f8c2a6d4-b974-46a6-98e5-4f000f0d3270.png) | ![Screenshot_20220929-113243](https://user-images.githubusercontent.com/42418189/192952268-338b8cbf-2e6c-4e39-94a9-396aa6e0fa36.png) | ![Screenshot (Sep 29, 2022 11_00_28 AM)](https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png) |
+<table>
+  <tr>
+    <th>Screen</th>
+    <th>App View</th>
+    <th>Sign In View</th>
+    <th>Home View</th>
+    <th>Location View</th>
+    <th>Setting View</th>
+    <th>Session Timeout</th>
+  </tr>
+  <tr>
+    <td>Images</td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192835293-674add0d-e87f-4c2c-9a3f-7c7a6a56bf5a.png" width="160"/></td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192952175-1fbdad61-8ea7-40c1-b8e8-b16aec29bd29.png" width="160"/></td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192835943-c57204e6-0e18-4949-8e1b-7542f0ebb6c3.png" width="160"/></td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192952227-f8c2a6d4-b974-46a6-98e5-4f000f0d3270.png" width="160"/></td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192952268-338b8cbf-2e6c-4e39-94a9-396aa6e0fa36.png" width="160"/></td>
+    <td><img src="https://user-images.githubusercontent.com/42418189/192946777-9919aa56-5303-43b5-9457-120b94d7c224.png" width="160"/></td>
+  </tr>
+</table>
+
 
 # Screenshots Tablet
 Screen | Sign In Landscape |
